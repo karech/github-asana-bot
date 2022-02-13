@@ -130,3 +130,5 @@ dmypy.json
 
 .idea/
 
+# they are managed by poetry
+/requirements.txt
