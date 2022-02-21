@@ -21,6 +21,6 @@ PROD_BRANCH = 'prod'
 ## Docker image build & run
 1. build image `docker build -t asana_bot .`
 2. create `.env` file
-3. run `docker run --env-file .env -d --name asana_bot -p 8000:80 asana_bot`
+3. run `docker run --env-file .env -d --restart always --name asana_bot -p 8000:80 asana_bot`
 
 [1]: https://github.com/karech/github-webhooks/
