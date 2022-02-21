@@ -6,7 +6,7 @@ authors = ["karech"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-github-webhooks-framework = "^0.1.10"
+github-webhooks-framework = "^0.1.11"
 asana = "^0.10.3"
 uvicorn = "^0.17.4"
 pydantic = {extras = ["dotenv"], version = "^1.9.0"}
